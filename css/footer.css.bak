@@ -1,0 +1,96 @@
+@charset="UTF-8";
+
+#footer{
+	min-width:1240px;
+	background-color:#fff;
+}
+#footer>.footer-content{
+	width:100%;
+	margin:auto; 
+}
+#footer>.footer-content .content-top{
+	width:1240px;
+	margin:auto;
+}
+#footer>.footer-content .content-bottom{
+	width:100%;
+	background-color:#000;
+	border-top:2px solid #ff0036;
+}
+#footer>.footer-content .footer-content-server{
+	width:100%;
+	height:150px;
+	text-align:center;
+	line-height:150px;
+}
+#footer>.footer-content .footer-content-server>a{
+	display:inline-block;
+	width:1190px;
+	height:100px;
+	vertical-align:middle;
+}
+#footer>.footer-content .footer-content-server>a>img{
+	vertical-align:top;
+}
+#footer>.footer-content .footer-content-desc{
+	width:calc(100%-170px);
+	height:185px;
+	padding:30px 85px 0;
+	background:url('../images/105.png') no-repeat 85px bottom/71px 30px;
+}
+#footer>.footer-content .footer-content-desc>.desc-list:nth-child(-n+4){
+	float:left;
+	margin-right:172px;
+}
+#footer>.footer-content .footer-content-desc h3{
+	font-size:16px;
+	font-weight:600;
+	color:#646464;
+}
+#footer>.footer-content .footer-content-desc ul li{
+	line-height:20px;
+	font-size:12px;
+	color:#8b8b8b;
+}
+#footer>.footer-content .footer-content-desc ul li a{
+	display:block;
+	width:64px;
+	height:20px;
+}
+#footer>.footer-content .footer-content-about{
+	width:1170px;
+	padding:0 35px;
+	background-color:#000;
+	margin:auto;
+	overflow:hidden;
+}
+#footer>.footer-content .footer-content-about>.help{
+	margin-top:10px;
+}
+#footer>.footer-content .footer-content-about>.help a{
+	margin-right:5px;
+	color:#fff;
+}
+#footer>.footer-content .footer-content-about>.company{
+	margin:20px 0 15px;
+}
+#footer>.footer-content .footer-content-about>.company a{
+	color:#fff;
+}
+#footer>.footer-content .footer-content-about>.information{
+	line-height:25px;
+	color:#a4a4a4;
+}
+#footer>.footer-content .footer-content-about>.information span:nth-child(-n+8){
+	margin-right:60px;
+}
+#footer>.footer-content .footer-content-about>.information span:last-child{
+	color:#686868;
+}
+#footer>.footer-content .footer-content-about>.card{
+	margin-top:10px;
+}
+#footer>.footer-content .footer-content-about>.card img{
+	margin-right:10px;
+	margin-bottom:20px;
+}
